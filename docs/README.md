@@ -1,41 +1,44 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
+# Battle Class
 
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_01)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2026.1(T02)_G1_DiárioEmocional_Entrega_01*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
-
-**Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Codigo da Disciplina**: FGA0208<br>
+**Numero do Grupo**: 06<br>
 **Entrega**: 01<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+| Matricula | Aluno |
+| -- | -- |
+| 211029503 | Otavio Oliveira de Maya Viana |
+| 221022453 | Thiago Melo Tonin |
+| 231011060 | Ana Elisa Marques Martins Ramos |
+| 231035722 | Marina Agostini Galdi |
+| 231026400 | Joao Victor Pires Sapiencia Santos |
+| 190105895 | Eric Akio Lages Nishimura |
+| 190028475 | Gabriela Tiago de Araujo |
+| 211061592 | Dannyeclisson Rodrigo Martins da Costa |
+| 231012245 | Joao Carlos Lobo Sousa Monteiro |
+| 211062787 | Lucas Oliveira Dias Marques Ferreira |
+
+## Sobre
+
+<!-- Descreva o projeto Battle Class aqui. Contextualize usando referencias, links e outros materiais como fontes. -->
+
+*[Preencher com a descricao do projeto Battle Class]*
 
 ## Screenshots da Primeira Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 
-## Há algo a ser executado?
+<!-- Adicione 2 ou mais screenshots dos artefatos realizados na entrega. -->
+
+*[Preencher com screenshots dos artefatos]*
+
+## Ha algo a ser executado?
 
 ( ) SIM
 
-( ) NÃO
+( ) NAO
 
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
+<!-- Se SIM, insira um manual (ou um script) para auxiliar os interessados na execucao. -->
 
-## Informações Complementares 
-Quaisquer outras informações adicionais podem ser descritas nessa seção.
+## Informacoes Complementares
+
+*[Preencher com informacoes adicionais, se houver]*
