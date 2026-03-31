@@ -14,10 +14,6 @@ FECHAMOS NA IDEIA DE QUE SERIAM PERGUNTAS ANTES DOS JOGOS PARA ARREDAR MOEDAS, E
 FINAL
 Todos: Jogo de batalha onde as perguntas seriam respondidas antes de jogar, arrecada moeda e depois joga (tower defense)
 
-
-
-
-
 Material de referência:
 https://aprender3.unb.br/pluginfile.php/3296189/mod_page/content/5/Arquitetura%20e%20Desenho%20de%20software%20-%20Aula%20Projeto-DSW%20-%20Profa.%20Milene.pdf
 
