@@ -1,7 +1,6 @@
 Debatemos em grupo quais seriam as tecnologias usadas e qual seria o formato do software. Lobo: Java (back), Otávio e lucas: Flutter, Dann: Não quer React Native
 Fechamos em SITE Mobile First - REACT, express, type, Banco de dados PostGres(supabase)
 
-
 Depois, começamos a debater as ideias para o site em si. 
 Ideias Originais:
 Todos: Jogo de batalha em tempo real com resposta de perguntas, para cada pergunta acertada, um ataque ao outro usuário. Vimos que não fazia sentido fazer em tempo real, por conta do tempo de resposta e complexidade das perguntas.
