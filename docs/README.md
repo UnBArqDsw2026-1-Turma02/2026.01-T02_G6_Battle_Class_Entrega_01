@@ -20,14 +20,6 @@
 </div>
 
 <div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);min-width:240px;flex:1">
-  <img src="https://github.com/audittmega.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
-  <div style="min-width:0">
-    <div style="font-weight:800;font-size:14px">Thiago Tonin</div>
-    <a href="https://github.com/audittmega" style="font-size:12px;color:#2B6BE6">@audittmega</a>
-  </div>
-</div>
-
-<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);min-width:240px;flex:1">
   <img src="https://github.com/Dannyeclisson.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Dannyeclisson Costa</div>
@@ -68,6 +60,14 @@
 </div>
 
 <div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);min-width:240px;flex:1">
+  <img src="https://github.com/MarinaGaldi.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
+  <div style="min-width:0">
+    <div style="font-weight:800;font-size:14px">Marina Agostini Galdi</div>
+    <a href="https://github.com/MarinaGaldi" style="font-size:12px;color:#2B6BE6">@MarinaGaldi</a>
+  </div>
+</div>
+
+<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);min-width:240px;flex:1">
   <img src="https://github.com/knz13.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Otávio Maya</div>
@@ -76,10 +76,10 @@
 </div>
 
 <div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);min-width:240px;flex:1">
-  <img src="https://github.com/MarinaGaldi.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
+  <img src="https://github.com/audittmega.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
-    <div style="font-weight:800;font-size:14px">Marina Agostini Galdi</div>
-    <a href="https://github.com/MarinaGaldi" style="font-size:12px;color:#2B6BE6">@MarinaGaldi</a>
+    <div style="font-weight:800;font-size:14px">Thiago Tonin</div>
+    <a href="https://github.com/audittmega" style="font-size:12px;color:#2B6BE6">@audittmega</a>
   </div>
 </div>
 
