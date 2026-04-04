@@ -1,0 +1,310 @@
+/* ═══════════════════════════════════════
+   Battle Class — GitPages Theme
+   Arquitetura e Desenho de Software
+   UnB/FGA 2026.1 · G6
+   ═══════════════════════════════════════ */
+
+:root {
+  --theme-color: #2B6BE6;
+  --bc-gold: #FFD700;
+  --bc-gold-dark: #E6B800;
+  --bc-blue: #2B6BE6;
+  --bc-blue-dark: #1A3FA0;
+  --bc-blue-light: #4A90FF;
+  --bc-bg: #F0F4FF;
+  --bc-text: #1E293B;
+  --bc-muted: #64748B;
+  --bc-radius: 14px;
+  --bc-shadow: 0 4px 20px rgba(43,107,230,0.12);
+}
+
+/* ── Header fixo ── */
+#bc-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 58px;
+  background: linear-gradient(135deg, #0f1c40 0%, #1A3FA0 60%, #2B6BE6 100%);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 300;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.35);
+  gap: 16px;
+}
+
+/* Hamburger */
+#bc-hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+  flex-shrink: 0;
+}
+#bc-hamburger span {
+  display: block;
+  width: 22px;
+  height: 2.5px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 2px;
+  transition: all 0.25s;
+}
+
+/* Logo no header */
+.bc-logo {
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: var(--bc-gold) !important;
+  text-decoration: none !important;
+  letter-spacing: 1px !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+/* Meta (UnB/FGA etc.) */
+.bc-meta {
+  font-family: 'Nunito', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* Esconder hamburger original do Docsify */
+.sidebar-toggle {
+  display: none !important;
+}
+
+/* ── Offset sidebar e conteúdo pelo header ── */
+.sidebar,
+body > .sidebar,
+.app-sidebar {
+  top: 58px !important;
+  height: calc(100vh - 58px) !important;
+}
+
+.content {
+  padding-top: 58px !important;
+}
+
+/* ── Body ── */
+body {
+  font-family: 'Nunito', sans-serif !important;
+  background: var(--bc-bg) !important;
+}
+
+/* ── Sidebar ── */
+.sidebar,
+body > .sidebar,
+.app-sidebar {
+  background: linear-gradient(160deg, #1A3FA0 0%, #2B6BE6 55%, #4A90FF 100%) !important;
+  border-right: none !important;
+}
+
+/* Logo / nome do app */
+.sidebar .app-name,
+.app-name {
+  padding: 20px 16px 8px !important;
+}
+
+.sidebar .app-name-link,
+.app-name-link {
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 20px !important;
+  color: var(--bc-gold) !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35) !important;
+  letter-spacing: 1px !important;
+  text-decoration: none !important;
+}
+
+/* Links da sidebar */
+.sidebar-nav a,
+.sidebar-nav ul li a {
+  color: rgba(255,255,255,0.82) !important;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+  border-radius: 8px !important;
+  transition: color 0.2s, background 0.2s !important;
+  text-decoration: none !important;
+}
+
+.sidebar-nav a:hover {
+  color: var(--bc-gold) !important;
+  background: rgba(255,255,255,0.1) !important;
+}
+
+.sidebar-nav ul li.active > a,
+.sidebar-nav li.active > a {
+  color: var(--bc-gold) !important;
+  background: rgba(255,215,0,0.12) !important;
+  border-radius: 8px !important;
+}
+
+/* Títulos de seção (negrito) na sidebar */
+.sidebar-nav p,
+.sidebar-nav strong {
+  color: rgba(255,255,255,0.45) !important;
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.2px !important;
+  font-family: 'Nunito', sans-serif !important;
+  margin-top: 16px !important;
+}
+
+/* Busca na sidebar */
+.search {
+  border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+  margin-bottom: 8px !important;
+}
+
+.search input {
+  font-family: 'Nunito', sans-serif !important;
+  background: rgba(255,255,255,0.12) !important;
+  border: 1.5px solid rgba(255,255,255,0.25) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+}
+
+.search input::placeholder { color: rgba(255,255,255,0.45) !important; }
+
+/* ── Área de conteúdo ── */
+.content,
+section.content {
+  background: var(--bc-bg) !important;
+}
+
+.markdown-section {
+  max-width: 860px !important;
+  padding: 40px 48px !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+/* ── Títulos ── */
+.markdown-section h1 {
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 38px !important;
+  color: var(--bc-blue-dark) !important;
+  letter-spacing: 0.5px !important;
+  border-bottom: 3px solid var(--bc-gold) !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 24px !important;
+}
+
+.markdown-section h2 {
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 24px !important;
+  color: var(--bc-blue) !important;
+  border-bottom: 2px solid rgba(43,107,230,0.12) !important;
+  padding-bottom: 6px !important;
+  margin-top: 36px !important;
+}
+
+.markdown-section h3 {
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 19px !important;
+  color: var(--bc-blue-dark) !important;
+}
+
+.markdown-section h4 {
+  font-size: 13px !important;
+  font-weight: 900 !important;
+  color: var(--bc-muted) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+/* ── Texto e links ── */
+.markdown-section p {
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  color: var(--bc-text) !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.markdown-section a { color: var(--bc-blue) !important; font-weight: 700 !important; }
+.markdown-section a:hover { color: var(--bc-gold-dark) !important; }
+
+/* ── Tabelas ── */
+.markdown-section table {
+  border-radius: var(--bc-radius) !important;
+  overflow: hidden !important;
+  box-shadow: var(--bc-shadow) !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.markdown-section thead tr {
+  background: linear-gradient(135deg, var(--bc-blue-dark), var(--bc-blue)) !important;
+}
+
+.markdown-section thead th {
+  color: #fff !important;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 11px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  padding: 12px 16px !important;
+  border: none !important;
+}
+
+.markdown-section tbody tr { background: #fff !important; }
+.markdown-section tbody tr:nth-child(even) { background: rgba(43,107,230,0.035) !important; }
+.markdown-section tbody tr:hover { background: rgba(43,107,230,0.07) !important; }
+
+.markdown-section tbody td {
+  padding: 10px 16px !important;
+  border-top: 1px solid rgba(43,107,230,0.07) !important;
+  color: var(--bc-text) !important;
+  font-size: 14px !important;
+  font-family: 'Nunito', sans-serif !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+
+/* ── Code ── */
+.markdown-section code {
+  background: rgba(43,107,230,0.08) !important;
+  color: var(--bc-blue-dark) !important;
+  border-radius: 6px !important;
+  padding: 2px 7px !important;
+  font-size: 13px !important;
+}
+
+.markdown-section pre {
+  background: #0f1c40 !important;
+  border-radius: var(--bc-radius) !important;
+  box-shadow: var(--bc-shadow) !important;
+}
+
+.markdown-section pre code {
+  background: transparent !important;
+  color: rgba(255,255,255,0.88) !important;
+}
+
+/* ── Blockquote ── */
+.markdown-section blockquote {
+  background: rgba(43,107,230,0.05) !important;
+  border-left: 4px solid var(--bc-blue) !important;
+  border-radius: 0 var(--bc-radius) var(--bc-radius) 0 !important;
+  padding: 12px 20px !important;
+  color: var(--bc-muted) !important;
+  font-weight: 700 !important;
+}
+
+/* ── Responsivo ── */
+@media (max-width: 768px) {
+  .markdown-section { padding: 24px 20px !important; }
+}
