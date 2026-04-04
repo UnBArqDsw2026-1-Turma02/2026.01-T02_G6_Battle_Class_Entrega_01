@@ -7,7 +7,7 @@ O protótipo abaixo é um HTML puro, então pode ser navegado diretamente dentro
 </div>
 
 <iframe
-  src="/battle-class-pc.html"
+  src="prototipo/battle-class-pc.html"
   style="width: 100%; height: 85vh; border: 1px solid #d0d7de; border-radius: 12px;"
   title="Protótipo Battle Class"
 ></iframe>
