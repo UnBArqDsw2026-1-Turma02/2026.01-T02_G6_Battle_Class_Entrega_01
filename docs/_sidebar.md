@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 - [Home](/)
+- [Protótipo](prototipo/)
 - **Base**
   - [1. Desenho de Software (Base)](Base/1.Base.md)
     - [1.1. Design Sprint](Base/1.1.DesignSprint.md)
