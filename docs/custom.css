@@ -246,7 +246,10 @@ section.content {
   display: table !important;
   overflow: visible !important;
   width: 100% !important;
-  border-collapse: collapse !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: var(--bc-radius) !important;
+  overflow: hidden !important;
   font-size: 14px !important;
   font-family: 'Nunito', sans-serif !important;
 }
@@ -265,6 +268,12 @@ section.content {
   padding: 12px 16px !important;
   border: none !important;
 }
+
+.markdown-section thead th:first-child { border-radius: var(--bc-radius) 0 0 0 !important; }
+.markdown-section thead th:last-child  { border-radius: 0 var(--bc-radius) 0 0 !important; }
+
+.markdown-section tbody tr:last-child td:first-child { border-radius: 0 0 0 var(--bc-radius) !important; }
+.markdown-section tbody tr:last-child td:last-child  { border-radius: 0 0 var(--bc-radius) 0 !important; }
 
 .markdown-section tbody tr { background: #fff !important; }
 .markdown-section tbody tr:nth-child(even) { background: rgba(43,107,230,0.035) !important; }
