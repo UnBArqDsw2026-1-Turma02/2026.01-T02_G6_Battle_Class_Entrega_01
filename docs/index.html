@@ -9,7 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="custom.css">
   <style>
     body .markdown-section .table-wrap { width: 100% !important; display: block !important; }
@@ -21,10 +21,10 @@
 
   <script>
     window.$docsify = {
-      name: '',
+      name: '<i class="fa-solid fa-khanda"></i> Battle Class',
       nameLink: '/',
       loadSidebar: true,
-      subMaxLevel: 3,
+      subMaxLevel: 0,
       search: {
         placeholder: 'Buscar...',
         noData: 'Nenhum resultado.',
@@ -33,26 +33,40 @@
       themeColor: '#2B6BE6',
       plugins: [
         function(hook) {
-          hook.doneEach(function() {
-          document.querySelectorAll('.table-wrap, table').forEach(function(el) {
-            el.style.setProperty('width', '100%', 'important');
-            el.style.setProperty('max-width', '100%', 'important');
-          });
-        });
-        hook.mounted(function() {
-            // Injeta o header fixo no topo
-            var header = document.createElement('header');
-            header.id = 'bc-header';
-            header.innerHTML = `
-              <button id="bc-hamburger" aria-label="Menu" onclick="document.body.classList.toggle('close')">
-                <span></span><span></span><span></span>
-              </button>
-              <a href="/" class="bc-logo">
-                <i class="fa-solid fa-khanda"></i> <span>Battle Class</span>
-              </a>
-              <div class="bc-meta">UnB/FGA &bull; 2026.1 &bull; G6</div>
-            `;
-            document.body.prepend(header);
+hook.doneEach(function() {
+            document.querySelectorAll('.table-wrap, table').forEach(function(el) {
+              el.style.setProperty('width', '100%', 'important');
+              el.style.setProperty('max-width', '100%', 'important');
+            });
+
+            document.querySelectorAll('.sidebar-nav li').forEach(function(li) {
+              var ul = li.querySelector(':scope > ul');
+              var a = li.querySelector(':scope > a');
+              if (!ul || !a) return;
+              if (li.dataset.collapseInit) return;
+              li.dataset.collapseInit = '1';
+
+              var toggle = document.createElement('span');
+              toggle.className = 'bc-toggle';
+              toggle.textContent = '▾';
+              a.appendChild(toggle);
+
+              function doToggle() {
+                var collapsed = ul.style.display === 'none';
+                ul.style.display = collapsed ? '' : 'none';
+                toggle.textContent = collapsed ? '▾' : '▸';
+              }
+
+              toggle.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                doToggle();
+              });
+
+              a.addEventListener('click', function() {
+                doToggle();
+              });
+            });
           });
         }
       ]

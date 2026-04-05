@@ -22,81 +22,6 @@
   --bc-h1: #1A3FA0;
 }
 
-/* ── Header fixo ── */
-#bc-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  height: 58px;
-  background: linear-gradient(135deg, #0f1c40 0%, #1A3FA0 60%, #2B6BE6 100%);
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  z-index: 300;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.35);
-  gap: 16px;
-}
-
-/* Hamburger */
-#bc-hamburger {
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  padding: 4px;
-  flex-shrink: 0;
-}
-#bc-hamburger span {
-  display: block;
-  width: 22px;
-  height: 2.5px;
-  background: rgba(255,255,255,0.85);
-  border-radius: 2px;
-  transition: all 0.25s;
-}
-
-/* Logo no header */
-.bc-logo {
-  font-family: 'Exo 2', sans-serif !important;
-  font-size: 18px !important;
-  font-weight: 700 !important;
-  color: var(--bc-gold) !important;
-  text-decoration: none !important;
-  letter-spacing: 1px !important;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex: 1;
-}
-
-/* Meta (UnB/FGA etc.) */
-.bc-meta {
-  font-family: 'Nunito', sans-serif;
-  font-size: 11px;
-  font-weight: 800;
-  color: rgba(255,255,255,0.45);
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-}
-
-/* Esconder hamburger original do Docsify */
-.sidebar-toggle {
-  display: none !important;
-}
-
-/* ── Offset sidebar e conteúdo pelo header ── */
-.sidebar,
-body > .sidebar,
-.app-sidebar {
-  top: 58px !important;
-  height: calc(100vh - 58px) !important;
-}
-
-.content {
-  padding-top: 58px !important;
-}
 
 /* ── Body ── */
 body {
@@ -110,18 +35,27 @@ body > .sidebar,
 .app-sidebar {
   background: linear-gradient(160deg, #1A3FA0 0%, #2B6BE6 55%, #4A90FF 100%) !important;
   border-right: none !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
+
+.sidebar .app-name { order: 1 !important; }
+.sidebar .search   { order: 2 !important; }
+.sidebar .sidebar-nav { order: 3 !important; flex: 1 !important; overflow-y: auto !important; }
+
+/* Esconde toggle padrão do Docsify */
+.sidebar-toggle { display: none !important; }
 
 /* Logo / nome do app */
 .sidebar .app-name,
 .app-name {
-  padding: 20px 16px 8px !important;
+  padding: 16px 16px 8px !important;
 }
 
 .sidebar .app-name-link,
 .app-name-link {
   font-family: 'Exo 2', sans-serif !important;
-  font-size: 20px !important;
+  font-size: 26px !important;
   color: var(--bc-gold) !important;
   text-shadow: 0 2px 8px rgba(0,0,0,0.35) !important;
   letter-spacing: 1px !important;
@@ -137,6 +71,29 @@ body > .sidebar,
   display: none !important;
 }
 
+/* Subitens: indentação com linha vertical */
+.sidebar-nav ul {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.sidebar-nav ul ul {
+  margin-left: 16px !important;
+}
+
+.sidebar-nav {
+  padding: 0 12px !important;
+}
+
+.bc-toggle {
+  font-size: 14px;
+  opacity: 0.85;
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
 /* Links da sidebar */
 .sidebar-nav a,
 .sidebar-nav ul li a {
@@ -148,7 +105,10 @@ body > .sidebar,
   transition: color 0.2s, background 0.2s !important;
   text-decoration: none !important;
   margin: 2px 0 !important;
-  padding: 6px 28px !important;
+  padding: 6px 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
 }
 
 .sidebar-nav a:hover {
@@ -157,7 +117,8 @@ body > .sidebar,
 }
 
 .sidebar-nav ul li.active > a,
-.sidebar-nav li.active > a {
+.sidebar-nav li.active > a,
+.sidebar-nav li:has(.active) > a {
   color: var(--bc-gold) !important;
   background: rgba(255,215,0,0.12) !important;
   border-radius: 8px !important;
@@ -179,7 +140,9 @@ body > .sidebar,
 /* Busca na sidebar */
 .search {
   border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+  padding: 0 12px 12px !important;
   margin-bottom: 8px !important;
+  position: relative !important;
 }
 
 .search input {
@@ -188,9 +151,65 @@ body > .sidebar,
   border: 1.5px solid rgba(255,255,255,0.25) !important;
   color: #fff !important;
   border-radius: 8px !important;
+  padding-left: 36px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 .search input::placeholder { color: rgba(255,255,255,0.45) !important; }
+
+.search .results-panel {
+  background: #1A3FA0 !important;
+  border-radius: 0 0 12px 12px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3) !important;
+  padding: 8px 0 !important;
+}
+
+.search .results-panel .matching-post {
+  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+  padding: 10px 16px !important;
+}
+
+.search .results-panel .matching-post:last-child {
+  border-bottom: none !important;
+}
+
+.search .results-panel h2 {
+  font-family: 'Exo 2', sans-serif !important;
+  font-size: 14px !important;
+  color: var(--bc-gold) !important;
+  margin: 0 0 4px !important;
+  border: none !important;
+}
+
+.search .results-panel p {
+  font-size: 12px !important;
+  color: rgba(255,255,255,0.65) !important;
+  margin: 0 !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.search .results-panel em {
+  color: var(--bc-gold) !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+}
+
+.search::before {
+  content: '\f002';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 24px;
+  top: 14px;
+  color: rgba(255,255,255,0.45);
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 1;
+}
 
 /* ── Área de conteúdo ── */
 body,
@@ -352,6 +371,19 @@ section.content {
 }
 .markdown-section div[style*="color:#888"] {
   color: var(--bc-muted) !important;
+}
+
+/* ── Highlight de âncora ── */
+.bc-anchor-highlight {
+  animation: bc-flash 2s ease forwards;
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+@keyframes bc-flash {
+  0%   { background: rgba(255, 215, 0, 0.35); }
+  70%  { background: rgba(255, 215, 0, 0.2); }
+  100% { background: transparent; }
 }
 
 /* ── Responsivo ── */
