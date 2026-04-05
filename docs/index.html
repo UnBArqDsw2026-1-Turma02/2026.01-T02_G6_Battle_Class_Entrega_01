@@ -7,10 +7,14 @@
   <meta name="description" content="Battle Class — Documentação do Projeto G6 | Arquitetura e Desenho de Software | UnB/FGA 2026.1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="custom.css">
+  <style>
+    body .markdown-section .table-wrap { width: 100% !important; display: block !important; }
+    body .markdown-section table { width: 100% !important; }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -29,7 +33,13 @@
       themeColor: '#2B6BE6',
       plugins: [
         function(hook) {
-          hook.mounted(function() {
+          hook.doneEach(function() {
+          document.querySelectorAll('.table-wrap, table').forEach(function(el) {
+            el.style.setProperty('width', '100%', 'important');
+            el.style.setProperty('max-width', '100%', 'important');
+          });
+        });
+        hook.mounted(function() {
             // Injeta o header fixo no topo
             var header = document.createElement('header');
             header.id = 'bc-header';
