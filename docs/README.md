@@ -7,6 +7,21 @@
 
 ---
 
+## Alunos
+
+| Matrícula | Aluno |
+|-----------|-------|
+| 231011060 | Ana Elisa Marques Martins Ramos |
+| 211062787 | Dannyeclisson Rodrigo Martins da Costa |
+| 190105895 | Eric Akio Lages Nishimura |
+| 190028475 | Gabriela Tiago de Araújo |
+| 231012245 | João Carlos Lobo Sousa Monteiro |
+| 231026400 | João Victor Pires Sapiência Santos |
+| 211062787 | Lucas Oliveira Dias Marques Ferreira |
+| 231035722 | Marina Agostini Galdi |
+| 211029503 | Otávio Oliveira de Maya Viana |
+| 221022453 | Thiago Melo Tonin |
+
 ## Equipe
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0">
@@ -104,3 +119,19 @@
 | Frontend | React (Mobile First) |
 | Backend | Express + TypeScript |
 | Banco de Dados | PostgreSQL via Supabase |
+
+## Screenshots da Primeira Entrega
+
+**Diagrama de Causa e Efeito (Fishbone):**
+
+![Diagrama de Causa e Efeito](assets/fish_bone.png)
+
+**Rich Picture Final:**
+
+![Rich Picture Final](rich_pictures/Rich_picture_final.jpeg)
+
+## Há algo a ser executado?
+
+( ) SIM
+
+(X) NÃO
