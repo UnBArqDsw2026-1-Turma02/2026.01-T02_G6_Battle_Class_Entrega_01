@@ -117,9 +117,8 @@ body > .sidebar,
   background: rgba(255,255,255,0.1) !important;
 }
 
-.sidebar-nav ul li.active > a,
-.sidebar-nav li.active > a,
-.sidebar-nav li:has(.active) > a {
+.sidebar-nav ul li.active > a[href^="#/"],
+.sidebar-nav li.active > a[href^="#/"] {
   color: var(--bc-gold) !important;
   background: rgba(255,215,0,0.12) !important;
   border-radius: 8px !important;
