@@ -122,13 +122,7 @@
 
 ## Screenshots da Primeira Entrega
 
-**Diagrama de Causa e Efeito (Fishbone):**
-
-![Diagrama de Causa e Efeito](assets/fish_bone.png)
-
-**Rich Picture Final:**
-
-![Rich Picture Final](rich_pictures/Rich_picture_final.jpeg)
+> Em breve.
 
 ## Há algo a ser executado?
 
