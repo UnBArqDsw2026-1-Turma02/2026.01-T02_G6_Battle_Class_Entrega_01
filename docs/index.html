@@ -33,7 +33,13 @@
       themeColor: '#2B6BE6',
       plugins: [
         function(hook) {
-          hook.mounted(function() {
+          hook.doneEach(function() {
+          document.querySelectorAll('.table-wrap, table').forEach(function(el) {
+            el.style.setProperty('width', '100%', 'important');
+            el.style.setProperty('max-width', '100%', 'important');
+          });
+        });
+        hook.mounted(function() {
             // Injeta o header fixo no topo
             var header = document.createElement('header');
             header.id = 'bc-header';
