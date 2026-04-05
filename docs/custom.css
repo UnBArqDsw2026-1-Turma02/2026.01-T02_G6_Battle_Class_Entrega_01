@@ -304,6 +304,51 @@ section.content {
   font-weight: 700 !important;
 }
 
+/* ── Details / Seções recolhíveis ── */
+.markdown-section details {
+  background: #fff !important;
+  border: 2px solid rgba(43,107,230,0.15) !important;
+  border-radius: 12px !important;
+  padding: 4px 20px 12px !important;
+  margin-bottom: 12px !important;
+  box-shadow: 0 2px 12px rgba(43,107,230,0.07) !important;
+  transition: box-shadow 0.2s !important;
+}
+
+.markdown-section details[open] {
+  border-color: rgba(43,107,230,0.35) !important;
+  box-shadow: 0 4px 20px rgba(43,107,230,0.13) !important;
+}
+
+.markdown-section details summary {
+  font-family: 'Fredoka One', cursive !important;
+  font-size: 17px !important;
+  color: #1A3FA0 !important;
+  cursor: pointer !important;
+  padding: 12px 0 8px !important;
+  user-select: none !important;
+  list-style: none !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+.markdown-section details summary::before {
+  content: '▶' !important;
+  font-size: 11px !important;
+  color: #2B6BE6 !important;
+  transition: transform 0.2s !important;
+  display: inline-block !important;
+}
+
+.markdown-section details[open] summary::before {
+  transform: rotate(90deg) !important;
+}
+
+.markdown-section details summary::-webkit-details-marker {
+  display: none !important;
+}
+
 /* ── Responsivo ── */
 @media (max-width: 768px) {
   .markdown-section { padding: 24px 20px !important; }
