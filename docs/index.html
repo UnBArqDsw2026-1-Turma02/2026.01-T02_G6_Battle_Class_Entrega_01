@@ -39,6 +39,16 @@ hook.doneEach(function() {
               el.style.setProperty('max-width', '100%', 'important');
             });
 
+            var id = (location.href.match(/[?&]id=([^&]+)/) || [])[1];
+            if (id) {
+              var target = document.getElementById(decodeURIComponent(id));
+              if (target) {
+                target.classList.remove('bc-anchor-highlight');
+                void target.offsetWidth;
+                target.classList.add('bc-anchor-highlight');
+              }
+            }
+
             document.querySelectorAll('.sidebar-nav li').forEach(function(li) {
               var ul = li.querySelector(':scope > ul');
               var a = li.querySelector(':scope > a');
