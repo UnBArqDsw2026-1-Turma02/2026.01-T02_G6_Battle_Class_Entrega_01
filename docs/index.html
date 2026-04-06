@@ -74,15 +74,6 @@ hook.doneEach(function() {
               toggle.textContent = hasMatch ? '▾' : '▸';
             });
 
-            var id = (location.href.match(/[?&]id=([^&]+)/) || [])[1];
-            if (id) {
-              var target = document.getElementById(decodeURIComponent(id));
-              if (target) {
-                target.classList.remove('bc-anchor-highlight');
-                void target.offsetWidth;
-                target.classList.add('bc-anchor-highlight');
-              }
-            }
 
           });
         }
