@@ -273,8 +273,8 @@ section.content {
   color: var(--bc-text) !important;
 }
 
-.markdown-section a { color: var(--bc-blue) !important; font-weight: 700 !important; }
-.markdown-section a:hover { color: var(--bc-gold) !important; }
+.markdown-section a { color: var(--bc-blue-dark) !important; font-weight: 700 !important; }
+.markdown-section a:hover { color: var(--bc-gold-dark) !important; }
 
 /* ── Tabelas ── */
 .markdown-section .table-wrap {
