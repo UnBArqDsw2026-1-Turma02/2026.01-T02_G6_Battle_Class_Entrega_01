@@ -117,7 +117,146 @@
 
 ## Screenshots da Primeira Entrega
 
-> Em breve.
+<h4 style="text-align:center; margin-top: 30px;">Visão Geral do Sistema</h4>
+
+<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/artefato_generalista.png" 
+         style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.2.ArtefatoGeneralista" target="_blank">
+      🔗 Ver Artefato Generalista
+    </a>
+  </div>
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/rich_picture_final.png" 
+         style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=rich-picture-escolhido" target="_blank">
+      🔗 Ver Rich Picture
+    </a>
+  </div>
+
+</div>
+
+
+<h4 style="text-align:center; margin-top: 30px;">Modelagem e Fluxo</h4>
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+
+  <div style="width: 60%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/bpmn.png" 
+         style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.3.ModelagemBPMN" target="_blank">
+      🔗 Ver BPMN
+    </a>
+  </div>
+
+</div>
+
+
+<h4 style="text-align:center; margin-top: 30px;">Protótipo de Alta Fidelidade</h4>
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta6.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta7.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+</div>
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta12.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta10.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta8.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+  <div style="width: 30%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta9.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+  </div>
+
+</div>
+
+
+<div style="text-align:center;">
+  <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=protótipo-de-alta-fidelidade" target="_blank">
+    🔗 Ver Protótipo Completo
+  </a>
+</div>
+
+
+<h4 style="text-align:center; margin-top: 30px;">Outros Artefatos</h4>
+
+<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_baixa.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=comprobatórios-de-participação-3" target="_blank">
+      🔗 Ver Protótipos de Baixa
+    </a>
+  </div>
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/questionario_interno.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=sessão-de-perguntas" target="_blank">
+      🔗 Ver Questionário
+    </a>
+  </div>
+
+</div>
+
+<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/resultados_forms.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=validação-com-terceiros" target="_blank">
+      🔗 Ver Resultados da validação detalhados
+    </a>
+  </div>
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/eh_nn_eh.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=Énão-É-·-faznão-faz" target="_blank">
+    🔗 Ver Técnica É / Não É / Faz / Não Faz
+  </a>
+  </div>
+
+</div>
+
+</div>
 
 ## Há algo a ser executado?
 
