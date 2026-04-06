@@ -122,7 +122,7 @@
 <div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
 
   <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/artefato_generalista.png" 
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/artefato_generalista.png" 
          style="max-width: 100%; height: 250px; object-fit: contain;">
     <br>
     <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.2.ArtefatoGeneralista" target="_blank">
@@ -131,7 +131,7 @@
   </div>
 
   <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/rich_picture_final.png" 
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/rich_picture_final.png" 
          style="max-width: 100%; height: 250px; object-fit: contain;">
     <br>
     <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=rich-picture-escolhido" target="_blank">
@@ -147,7 +147,7 @@
 <div style="display: flex; justify-content: center; margin: 20px 0;">
 
   <div style="width: 60%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/bpmn.png" 
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/bpmn.png" 
          style="max-width: 100%; height: 250px; object-fit: contain;">
     <br>
     <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.3.ModelagemBPMN" target="_blank">
@@ -163,15 +163,15 @@
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/prototipo_alta.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/prototipo_alta.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/prototipo_alta6.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/prototipo_alta6.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/prototipo_alta7.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/prototipo_alta7.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
 </div>
@@ -188,7 +188,7 @@
 <div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
 
   <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/prototipo_baixa.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/prototipo_baixa.png" style="max-width: 100%; height: 250px; object-fit: contain;">
     <br>
     <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=comprobatórios-de-participação-3" target="_blank">
       🔗 Ver Protótipos de Baixa
@@ -196,7 +196,7 @@
   </div>
 
   <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/design_sprint/prints_entrega1/questionario_interno.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/docs/assets/prints_entrega1/questionario_interno.png" style="max-width: 100%; height: 250px; object-fit: contain;">
     <br>
     <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=sessão-de-perguntas" target="_blank">
       🔗 Ver Questionário
