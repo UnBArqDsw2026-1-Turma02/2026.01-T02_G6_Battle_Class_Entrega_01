@@ -226,6 +226,55 @@ section.content {
   color: var(--bc-text) !important;
 }
 
+/* ── Details / Summary ── */
+.markdown-section details {
+  background: var(--bc-surface2);
+  border: 1px solid var(--bc-border);
+  border-radius: 10px;
+  margin: 6px 0;
+  padding: 0;
+  overflow: hidden;
+  transition: background 0.2s;
+}
+
+.markdown-section details[open] {
+  background: var(--bc-surface);
+  box-shadow: var(--bc-shadow);
+}
+
+.markdown-section summary {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--bc-blue-dark);
+  background: rgba(255, 215, 0, 0.15);
+  padding: 10px 16px;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+}
+
+.markdown-section summary::-webkit-details-marker { display: none; }
+
+.markdown-section summary::before {
+  content: '▸';
+  font-size: 11px;
+  color: var(--bc-gold-dark);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.markdown-section details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.markdown-section details > *:not(summary) {
+  padding: 0 16px 12px;
+}
+
 /* ── Títulos ── */
 .markdown-section h1 {
   font-family: 'Exo 2', sans-serif !important;
