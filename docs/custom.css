@@ -29,6 +29,68 @@ body {
   background: var(--bc-bg) !important;
 }
 
+/* ── Top Bar ── */
+#bc-topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 48px;
+  background: linear-gradient(90deg, #12276e 0%, #1A3FA0 40%, #2B6BE6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 300;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+}
+
+#bc-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+#bc-topbar-title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  color: #FFD700;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+#bc-topbar-sep {
+  color: rgba(255,255,255,0.35);
+  font-size: 16px;
+}
+
+#bc-topbar-sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#bc-topbar-right {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+/* Empurra sidebar e conteúdo para baixo do topbar */
+.sidebar,
+body > .sidebar,
+.app-sidebar {
+  top: 48px !important;
+}
+
+.content {
+  padding-top: 48px !important;
+}
+
 /* ── Sidebar ── */
 .sidebar,
 body > .sidebar,
