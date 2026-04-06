@@ -236,11 +236,24 @@
 
 </div>
 
+<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
 
-<div style="text-align:center; margin-top: 30px;">
-  <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=Énão-É-·-faznão-faz" target="_blank">
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/resultados_forms.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=validação-com-terceiros" target="_blank">
+      🔗 Ver Resultados da validação detalhados
+    </a>
+  </div>
+
+  <div style="width: 45%; text-align: center;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/eh_nn_eh.png" style="max-width: 100%; height: 250px; object-fit: contain;">
+    <br>
+    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=Énão-É-·-faznão-faz" target="_blank">
     🔗 Ver Técnica É / Não É / Faz / Não Faz
   </a>
+  </div>
+
 </div>
 
 ## Há algo a ser executado?
