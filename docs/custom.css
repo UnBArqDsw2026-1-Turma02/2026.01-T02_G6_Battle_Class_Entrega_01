@@ -116,6 +116,11 @@ body.bc-sidebar-closed body > .sidebar {
 body.bc-sidebar-closed .content {
   margin-left: 0 !important;
   transition: margin-left 0.25s ease;
+  display: flex !important;
+  justify-content: center !important;
+}
+body.bc-sidebar-closed .markdown-section {
+  margin: 0 auto !important;
 }
 .content { transition: margin-left 0.25s ease; }
 
