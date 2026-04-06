@@ -1,13 +1,31 @@
-# Battle Class
+# ⚔️ Battle Class
 
-> Jogo de perguntas e respostas com mecânica de tower defense — responda quiz para ganhar moedas e defenda seu castelo!
+> 🎯 Responda quizzes para ganhar moedas e defenda seu castelo no Tower Defense!
 
-**Disciplina**: Arquitetura e Desenho de Software · FGA0208  
-**Grupo**: G6 · UnB/FGA · 2026.1
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin:16px 0">
+  <span style="background:#2B6BE6;color:#fff;border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700">📚 FGA0208</span>
+  <span style="background:#2B6BE6;color:#fff;border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700">👥 Grupo G6</span>
+  <span style="background:#2B6BE6;color:#fff;border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700">🏛️ UnB/FGA · 2026.1</span>
+  <span style="background:#22c55e;color:#fff;border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700">📦 Entrega 01 — Base</span>
+</div>
+
+> 🔧 *Repositório criado a partir do [RepositorioTemplate](https://github.com/UnBArqDsw2026-1-Turma02/RepositorioTemplateEntrega1) oficial da disciplina.*
 
 ---
 
-## Alunos
+## 🎮 Sobre o Projeto
+
+**Battle Class** é uma plataforma web *mobile first* onde o jogador responde perguntas de múltipla escolha para acumular moedas de estudo e, com elas, enfrenta ondas de inimigos em partidas de **Tower Defense**.
+
+| 🖥️ Camada | ⚙️ Tecnologia |
+|-----------|--------------|
+| Frontend | React (Mobile First) |
+| Backend | Express + TypeScript |
+| Banco de Dados | PostgreSQL via Supabase |
+
+---
+
+## 👨‍💻 Time
 
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0">
 
@@ -65,7 +83,7 @@
   </div>
 </div>
 
-<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10)">
+<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);">
   <img src="https://github.com/LucasOliveiraDiasMarquesFerreira.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Lucas Oliveira Ferreira</div>
@@ -74,7 +92,7 @@
   </div>
 </div>
 
-<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10)">
+<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);">
   <img src="https://github.com/MarinaGaldi.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Marina Agostini Galdi</div>
@@ -83,7 +101,7 @@
   </div>
 </div>
 
-<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10)">
+<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);">
   <img src="https://github.com/knz13.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Otávio Maya</div>
@@ -92,7 +110,7 @@
   </div>
 </div>
 
-<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10)">
+<div style="background:#fff;border-radius:14px;padding:16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 16px rgba(43,107,230,0.10);">
   <img src="https://github.com/audittmega.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Thiago Tonin</div>
@@ -105,161 +123,89 @@
 
 ---
 
-## Sobre o Projeto
+## 📋 Entregas — Base
 
-**Battle Class** é uma plataforma web *mobile first* onde o jogador responde perguntas de múltipla escolha para acumular moedas de estudo e, com elas, enfrenta ondas de inimigos em partidas de tower defense.
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin:24px 0">
 
-| Camada | Tecnologia |
-|--------|-----------|
-| Frontend | React (Mobile First) |
-| Backend | Express + TypeScript |
-| Banco de Dados | PostgreSQL via Supabase |
-
-## Screenshots da Primeira Entrega
-
-<h4 style="text-align:center; margin-top: 30px;">Visão Geral do Sistema</h4>
-
-<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
-
-  <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/artefato_generalista.png" 
-         style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.2.ArtefatoGeneralista" target="_blank">
-      🔗 Ver Artefato Generalista
-    </a>
-  </div>
-
-  <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/rich_picture_final.png" 
-         style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=rich-picture-escolhido" target="_blank">
-      🔗 Ver Rich Picture
-    </a>
-  </div>
-
+<div style="background:#fff;border-radius:14px;padding:20px;box-shadow:0 4px 16px rgba(43,107,230,0.10);text-align:center">
+  <div style="font-size:32px;margin-bottom:8px">🏃</div>
+  <div style="font-weight:800;font-size:15px;margin-bottom:6px">Design Sprint</div>
+  <div style="font-size:12px;color:#666;margin-bottom:12px">5 etapas · Protótipo de alta fidelidade · Validação com usuários</div>
+  <a href="#/Base/1.1.DesignSprint" style="background:#2B6BE6;color:#fff;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:700;text-decoration:none">Ver →</a>
 </div>
 
-
-<h4 style="text-align:center; margin-top: 30px;">Modelagem e Fluxo</h4>
-
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-
-  <div style="width: 60%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/bpmn.png" 
-         style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.3.ModelagemBPMN" target="_blank">
-      🔗 Ver BPMN
-    </a>
-  </div>
-
+<div style="background:#fff;border-radius:14px;padding:20px;box-shadow:0 4px 16px rgba(43,107,230,0.10);text-align:center">
+  <div style="font-size:32px;margin-bottom:8px">🐟</div>
+  <div style="font-weight:800;font-size:15px;margin-bottom:6px">Artefato Generalista</div>
+  <div style="font-size:12px;color:#666;margin-bottom:12px">Diagrama Fishbone · Léxico do Sistema</div>
+  <a href="#/Base/1.2.ArtefatoGeneralista" style="background:#2B6BE6;color:#fff;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:700;text-decoration:none">Ver →</a>
 </div>
 
-
-<h4 style="text-align:center; margin-top: 30px;">Protótipo de Alta Fidelidade</h4>
-
-<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta6.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta7.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-</div>
-
-<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta12.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta4.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta10.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta8.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-  <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta9.png" style="max-width: 100%; height: 200px; object-fit: contain;">
-  </div>
-
-</div>
-
-
-<div style="text-align:center;">
-  <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=protótipo-de-alta-fidelidade" target="_blank">
-    🔗 Ver Protótipo Completo
-  </a>
-</div>
-
-
-<h4 style="text-align:center; margin-top: 30px;">Outros Artefatos</h4>
-
-<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
-
-  <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_baixa.png" style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=comprobatórios-de-participação-3" target="_blank">
-      🔗 Ver Protótipos de Baixa
-    </a>
-  </div>
-
-  <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/questionario_interno.png" style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=sessão-de-perguntas" target="_blank">
-      🔗 Ver Questionário
-    </a>
-  </div>
-
-</div>
-
-<div style="display: flex; gap: 16px; justify-content: center; margin: 20px 0; flex-wrap: wrap;">
-
-  <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/resultados_forms.png" style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=validação-com-terceiros" target="_blank">
-      🔗 Ver Resultados da validação detalhados
-    </a>
-  </div>
-
-  <div style="width: 45%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/eh_nn_eh.png" style="max-width: 100%; height: 250px; object-fit: contain;">
-    <br>
-    <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=Énão-É-·-faznão-faz" target="_blank">
-    🔗 Ver Técnica É / Não É / Faz / Não Faz
-  </a>
-  </div>
-
+<div style="background:#fff;border-radius:14px;padding:20px;box-shadow:0 4px 16px rgba(43,107,230,0.10);text-align:center">
+  <div style="font-size:32px;margin-bottom:8px">🔄</div>
+  <div style="font-weight:800;font-size:15px;margin-bottom:6px">Modelagem BPMN</div>
+  <div style="font-size:12px;color:#666;margin-bottom:12px">Metodologia OpenUP · Fluxo completo da equipe</div>
+  <a href="#/Base/1.3.ModelagemBPMN" style="background:#2B6BE6;color:#fff;border-radius:8px;padding:6px 14px;font-size:12px;font-weight:700;text-decoration:none">Ver →</a>
 </div>
 
 </div>
 
-## Há algo a ser executado?
+---
 
-( ) SIM
+## 🖼️ Artefatos em Destaque
 
-(X) NÃO
+<h4 style="text-align:center;margin-top:30px">Visão Geral</h4>
+
+<div style="display:flex;gap:16px;justify-content:center;margin:20px 0;flex-wrap:wrap">
+  <div style="width:45%;text-align:center">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/artefato_generalista.png" style="max-width:100%;height:250px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+    <br><a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.2.ArtefatoGeneralista" target="_blank">🔗 Artefato Generalista</a>
+  </div>
+  <div style="width:45%;text-align:center">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/rich_picture_final.png" style="max-width:100%;height:250px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+    <br><a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=rich-picture-escolhido" target="_blank">🔗 Rich Picture</a>
+  </div>
+</div>
+
+<h4 style="text-align:center;margin-top:30px">Modelagem BPMN</h4>
+
+<div style="display:flex;justify-content:center;margin:20px 0">
+  <div style="width:60%;text-align:center">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/bpmn.png" style="max-width:100%;height:250px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+    <br><a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.3.ModelagemBPMN" target="_blank">🔗 Ver BPMN completo</a>
+  </div>
+</div>
+
+<h4 style="text-align:center;margin-top:30px">Protótipo de Alta Fidelidade</h4>
+
+<div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:20px 0">
+  <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta.png" style="height:200px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+  <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta6.png" style="height:200px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+  <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta7.png" style="height:200px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+  <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="height:200px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+  <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta8.png" style="height:200px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+  <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta9.png" style="height:200px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+</div>
+
+<div style="text-align:center;margin-top:8px">
+  <a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=protótipo-de-alta-fidelidade" target="_blank">🔗 Ver Protótipo Interativo</a>
+</div>
+
+<h4 style="text-align:center;margin-top:30px">Validação com Usuários</h4>
+
+<div style="display:flex;gap:16px;justify-content:center;margin:20px 0;flex-wrap:wrap">
+  <div style="width:45%;text-align:center">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/resultados_forms.png" style="max-width:100%;height:250px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+    <br><a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=validação-com-terceiros" target="_blank">🔗 Resultados da Validação</a>
+  </div>
+  <div style="width:45%;text-align:center">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/eh_nn_eh.png" style="max-width:100%;height:250px;object-fit:contain;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,0.10)">
+    <br><a href="/2026.01-T02_G6_Battle_Class_Entrega_01/#/Base/1.1.DesignSprint?id=Énão-É-·-faznão-faz" target="_blank">🔗 É / Não É · Faz / Não Faz</a>
+  </div>
+</div>
+
+---
+
+## ❓ Há algo a ser executado?
+
+**(X) NÃO** — trata-se de documentação estática publicada via GitHub Pages.
