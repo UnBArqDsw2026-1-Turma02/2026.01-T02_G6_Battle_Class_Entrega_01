@@ -1,31 +1,38 @@
-# RepositorioTemplate
+# Battle Class — G6
 
-Repositório que deve ser utilizado como template inicial pelos grupos da matéria de Arquitetura e Desenho de Software.
+**Disciplina**: Arquitetura e Desenho de Software · FGA0208  
+**Grupo**: G6 · Turma T02 · UnB/FGA · 2026.1  
+**Entrega**: 01 — Desenho de Software (Base)  
+**GitPages**: https://unbarqdsw2026-1-turma02.github.io/2026.01-T02_G6_Battle_Class_Entrega_01/
 
-## Introdução
+---
 
-Este repositório traz um template de repo de documentação a ser seguido pelos grupos de arquitetura e desenho de software.
+## Sobre o Projeto
 
-## Tecnologia
+**Battle Class** é uma plataforma web *mobile first* onde o jogador responde perguntas de múltipla escolha para acumular moedas de estudo e, com elas, enfrenta ondas de inimigos em partidas de tower defense.
 
-A geração do site estático é realizada utilizando o [docsify](https://docsify.js.org/).
+---
 
-```shell
-"Docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an index.html and deploy it on GitHub Pages."
-```
+## Alunos
 
-### Instalando o docsify
+| Matrícula | Aluno |
+|-----------|-------|
+| 231011060 | Ana Elisa Marques Martins Ramos |
+| 211061592 | Dannyeclisson Rodrigo Martins da Costa |
+| 190105895 | Eric Akio Lages Nishimura |
+| 190028475 | Gabriela Tiago de Araujo |
+| 231012245 | João Carlos Lobo Sousa Monteiro |
+| 231026400 | João Victor Pires Sapiência Santos |
+| 211062787 | Lucas Oliveira Dias Marques Ferreira |
+| 231035722 | Marina Agostini Galdi |
+| 211029503 | Otávio Oliveira de Maya Viana |
+| 221022453 | Thiago Melo Tonin |
 
-Execute o comando:
+---
+
+## Executando localmente
 
 ```shell
 npm i docsify-cli -g
-```
-
-### Executando localmente
-
-Para iniciar o site localmente, utilize o comando:
-
-```shell
 docsify serve ./docs
 ```
