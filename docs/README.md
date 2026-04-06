@@ -24,7 +24,7 @@
   <img src="https://github.com/Dannyeclisson.png?size=64" style="width:52px;height:52px;border-radius:50%;border:2px solid #2B6BE6;flex-shrink:0">
   <div style="min-width:0">
     <div style="font-weight:800;font-size:14px">Dannyeclisson Costa</div>
-    <div style="font-size:11px;color:#888;margin:2px 0">211062787</div>
+    <div style="font-size:11px;color:#888;margin:2px 0">211061592</div>
     <a href="https://github.com/Dannyeclisson" style="font-size:12px;color:#2B6BE6">@Dannyeclisson</a>
   </div>
 </div>
@@ -187,7 +187,7 @@
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta4.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
