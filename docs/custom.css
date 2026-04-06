@@ -53,11 +53,14 @@ body {
 
 #bc-topbar-title {
   font-family: 'Exo 2', sans-serif;
-  font-size: 17px;
+  font-size: 26px;
   font-weight: 900;
   color: #FFD700;
   letter-spacing: 0.5px;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 #bc-topbar-sep {
@@ -263,7 +266,8 @@ body > .sidebar,
   font-weight: 900;
   position: absolute;
   left: 24px;
-  top: 14px;
+  top: 50%;
+  transform: translateY(-50%);
   color: rgba(255,255,255,0.45);
   font-size: 13px;
   pointer-events: none;
