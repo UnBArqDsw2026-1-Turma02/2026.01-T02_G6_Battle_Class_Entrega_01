@@ -106,7 +106,9 @@ body {
   background: rgba(0,0,0,0.45);
   z-index: 150;
 }
-body.bc-sidebar-open #bc-overlay { display: block; }
+@media (max-width: 768px) {
+  body.bc-sidebar-open #bc-overlay { display: block; }
+}
 
 /* Empurra sidebar e conteúdo para baixo do topbar */
 .sidebar,
