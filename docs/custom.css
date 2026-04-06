@@ -27,14 +27,14 @@
 body {
   font-family: 'Nunito', sans-serif !important;
   background: var(--bc-bg) !important;
-  padding-top: 48px !important;
+  padding-top: 62px !important;
 }
 
 /* ── Top Bar ── */
 #bc-topbar {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: 48px;
+  height: 62px;
   background: linear-gradient(90deg, #12276e 0%, #1A3FA0 40%, #2B6BE6 100%);
   display: flex;
   align-items: center;
@@ -85,8 +85,8 @@ body {
 .sidebar,
 body > .sidebar,
 .app-sidebar {
-  top: 48px !important;
-  height: calc(100vh - 48px) !important;
+  top: 62px !important;
+  height: calc(100vh - 62px) !important;
 }
 
 /* ── Sidebar ── */
@@ -99,18 +99,17 @@ body > .sidebar,
   flex-direction: column !important;
 }
 
-.sidebar .app-name { order: 1 !important; }
-.sidebar .search   { order: 2 !important; }
-.sidebar .sidebar-nav { order: 3 !important; flex: 1 !important; overflow-y: auto !important; }
+/* Esconde logo/nome do app na sidebar — já aparece no topbar */
+.sidebar .app-name,
+.app-name {
+  display: none !important;
+}
+
+.sidebar .search   { order: 1 !important; }
+.sidebar .sidebar-nav { order: 2 !important; flex: 1 !important; overflow-y: auto !important; }
 
 /* Esconde toggle padrão do Docsify */
 .sidebar-toggle { display: none !important; }
-
-/* Logo / nome do app */
-.sidebar .app-name,
-.app-name {
-  padding: 16px 16px 8px !important;
-}
 
 .sidebar .app-name-link,
 .app-name-link {
@@ -280,7 +279,7 @@ section.content {
 
 .markdown-section {
   max-width: 860px !important;
-  padding: 40px 48px !important;
+  padding: 40px 62px !important;
   font-family: 'Nunito', sans-serif !important;
   background: var(--bc-bg) !important;
   color: var(--bc-text) !important;
