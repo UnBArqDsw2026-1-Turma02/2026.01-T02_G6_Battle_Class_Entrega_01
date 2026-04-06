@@ -179,29 +179,29 @@
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega/prototipo_alta2.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta2.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta3.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega2/prototipo_alta5.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta5.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega3/prototipo_alta8.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta8.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
   <div style="width: 30%; text-align: center;">
-    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega4/prototipo_alta9.png" style="max-width: 100%; height: 200px; object-fit: contain;">
+    <img src="/2026.01-T02_G6_Battle_Class_Entrega_01/assets/prints_entrega1/prototipo_alta9.png" style="max-width: 100%; height: 200px; object-fit: contain;">
   </div>
 
 </div>
@@ -253,6 +253,8 @@
     🔗 Ver Técnica É / Não É / Faz / Não Faz
   </a>
   </div>
+
+</div>
 
 </div>
 
