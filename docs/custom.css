@@ -47,9 +47,23 @@ body {
 #bc-topbar-left {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   overflow: hidden;
 }
+
+#bc-hamburger {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+#bc-hamburger:hover { background: rgba(255,255,255,0.15); }
 
 #bc-topbar-title {
   font-family: 'Exo 2', sans-serif;
@@ -84,13 +98,35 @@ body {
   margin-left: 16px;
 }
 
+/* Overlay mobile */
+#bc-overlay {
+  display: none;
+  position: fixed;
+  top: 76px; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 150;
+}
+body.bc-sidebar-open #bc-overlay { display: block; }
+
 /* Empurra sidebar e conteúdo para baixo do topbar */
 .sidebar,
 body > .sidebar,
 .app-sidebar {
   top: 76px !important;
   height: calc(100vh - 76px) !important;
+  transition: left 0.25s ease !important;
 }
+
+/* Desktop: sidebar fechada */
+body.bc-sidebar-closed .sidebar,
+body.bc-sidebar-closed body > .sidebar {
+  left: -300px !important;
+}
+body.bc-sidebar-closed .content {
+  margin-left: 0 !important;
+  transition: margin-left 0.25s ease;
+}
+.content { transition: margin-left 0.25s ease; }
 
 /* ── Sidebar ── */
 .sidebar,
@@ -489,4 +525,28 @@ section.content {
 /* ── Responsivo ── */
 @media (max-width: 768px) {
   .markdown-section { padding: 24px 20px !important; }
+
+  /* Sidebar vira overlay no mobile */
+  .sidebar,
+  body > .sidebar,
+  .app-sidebar {
+    left: -300px !important;
+    z-index: 200 !important;
+  }
+  body.bc-sidebar-open .sidebar,
+  body.bc-sidebar-open body > .sidebar {
+    left: 0 !important;
+  }
+
+  /* Conteúdo ocupa tela toda no mobile */
+  .content,
+  section.content {
+    margin-left: 0 !important;
+    transition: none !important;
+  }
+
+  /* Topbar: esconde texto direito em telas muito pequenas */
+  #bc-topbar-right {
+    display: none;
+  }
 }

@@ -19,10 +19,12 @@
 <body>
   <div id="bc-topbar">
     <div id="bc-topbar-left">
+      <button id="bc-hamburger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
       <span id="bc-topbar-title"><i class="fa-solid fa-khanda"></i> Battle Class</span>
     </div>
     <div id="bc-topbar-right">UnB/FGA · G6 · 2026.1</div>
   </div>
+  <div id="bc-overlay"></div>
   <div id="app"></div>
 
   <script>
@@ -89,5 +91,53 @@ hook.doneEach(function() {
 
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <script>
+    (function() {
+      var MOBILE = 768;
+
+      function isMobile() { return window.innerWidth <= MOBILE; }
+
+      function openSidebar() {
+        document.body.classList.add('bc-sidebar-open');
+        document.body.classList.remove('bc-sidebar-closed');
+        document.getElementById('bc-hamburger').querySelector('i').className = 'fa-solid fa-xmark';
+      }
+
+      function closeSidebar() {
+        document.body.classList.remove('bc-sidebar-open');
+        document.body.classList.add('bc-sidebar-closed');
+        document.getElementById('bc-hamburger').querySelector('i').className = 'fa-solid fa-bars';
+      }
+
+      function toggleSidebar() {
+        if (document.body.classList.contains('bc-sidebar-closed')) openSidebar();
+        else closeSidebar();
+      }
+
+      // Estado inicial
+      if (isMobile()) closeSidebar();
+
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('bc-hamburger').addEventListener('click', toggleSidebar);
+        document.getElementById('bc-overlay').addEventListener('click', closeSidebar);
+      });
+
+      // Fecha no mobile ao clicar em link da sidebar
+      document.addEventListener('click', function(e) {
+        if (isMobile() && e.target.closest('.sidebar-nav a')) closeSidebar();
+      });
+
+      // Ajusta ao redimensionar
+      window.addEventListener('resize', function() {
+        if (!isMobile()) {
+          document.body.classList.remove('bc-sidebar-closed', 'bc-sidebar-open');
+          document.getElementById('bc-hamburger').querySelector('i').className = 'fa-solid fa-bars';
+        } else if (!document.body.classList.contains('bc-sidebar-open')) {
+          closeSidebar();
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
