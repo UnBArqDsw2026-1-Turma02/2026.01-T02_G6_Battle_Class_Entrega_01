@@ -27,6 +27,7 @@
 body {
   font-family: 'Nunito', sans-serif !important;
   background: var(--bc-bg) !important;
+  padding-top: 48px !important;
 }
 
 /* ── Top Bar ── */
@@ -85,10 +86,7 @@ body {
 body > .sidebar,
 .app-sidebar {
   top: 48px !important;
-}
-
-.content {
-  padding-top: 48px !important;
+  height: calc(100vh - 48px) !important;
 }
 
 /* ── Sidebar ── */
