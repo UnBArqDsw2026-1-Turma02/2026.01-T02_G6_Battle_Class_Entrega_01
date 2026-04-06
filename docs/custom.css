@@ -27,14 +27,14 @@
 body {
   font-family: 'Nunito', sans-serif !important;
   background: var(--bc-bg) !important;
-  padding-top: 62px !important;
+  padding-top: 76px !important;
 }
 
 /* ── Top Bar ── */
 #bc-topbar {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: 62px;
+  height: 76px;
   background: linear-gradient(90deg, #12276e 0%, #1A3FA0 40%, #2B6BE6 100%);
   display: flex;
   align-items: center;
@@ -85,8 +85,8 @@ body {
 .sidebar,
 body > .sidebar,
 .app-sidebar {
-  top: 62px !important;
-  height: calc(100vh - 62px) !important;
+  top: 76px !important;
+  height: calc(100vh - 76px) !important;
 }
 
 /* ── Sidebar ── */
@@ -199,7 +199,7 @@ body > .sidebar,
 /* Busca na sidebar */
 .search {
   border-bottom: 1px solid rgba(255,255,255,0.15) !important;
-  padding: 0 12px 12px !important;
+  padding: 12px 12px 12px !important;
   margin-bottom: 8px !important;
   position: relative !important;
 }
@@ -279,7 +279,7 @@ section.content {
 
 .markdown-section {
   max-width: 860px !important;
-  padding: 40px 62px !important;
+  padding: 40px 76px !important;
   font-family: 'Nunito', sans-serif !important;
   background: var(--bc-bg) !important;
   color: var(--bc-text) !important;
