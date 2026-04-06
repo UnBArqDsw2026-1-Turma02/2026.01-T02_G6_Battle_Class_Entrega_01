@@ -113,16 +113,17 @@ body.bc-sidebar-closed .sidebar,
 body.bc-sidebar-closed body > .sidebar {
   left: -300px !important;
 }
-body.bc-sidebar-closed .content {
+body.bc-sidebar-closed .content,
+body.bc-sidebar-closed section.content {
   margin-left: 0 !important;
-  transition: margin-left 0.25s ease;
-  display: flex !important;
-  justify-content: center !important;
+  left: 0 !important;
+  transition: margin-left 0.25s ease, left 0.25s ease;
 }
 body.bc-sidebar-closed .markdown-section {
-  margin: 0 auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-.content { transition: margin-left 0.25s ease; }
+.content { transition: margin-left 0.25s ease, left 0.25s ease; }
 
 /* ── Sidebar ── */
 .sidebar,
